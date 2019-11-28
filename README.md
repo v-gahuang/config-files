@@ -35,5 +35,24 @@ Netflix OSS + Spring + Spring Boot
 
 ```
 
+## Bootstrap a service use the config client
+
+### Config First
+```
+spring.application.name=evc_tob
+spring.cloud.config.uri=http://localhost:8883/
+```
+
+### Discovery First
+```
+spring.application.name=evc_tob 
+spring.cloud.config.discovery.enabled=true
+```
+
 ## Updating Configuration at Runtime
 
+### /refresh
+@ConfigurationProperties
+
+### @RefreshScope
+add @RefreshScope will reinitialize @Value @Bean
