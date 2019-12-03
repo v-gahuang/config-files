@@ -1,17 +1,19 @@
-## Spring Cloud 
+# Spring Cloud Netflix
+## Service Discovery
 
-## Spring Cloud Netflix
-Netflix OSS + Spring + Spring Boot
+### Key Component
+Discovery Server
+Service
+Client
 
-## Discovering Services With Spring Cloud
-
+# Spring Cloud Config
 ## Spring Cloud Config Server
 ### REST Endpoints
 
 #### REST Endpoint Parameters
-{application} maps to spring.application.name on client
-{profile} maps to spring.profiles.active on client
-{label} server side feature to refer to set of config files by name
+{application} spring.application.name on client
+{profile} spring.profiles.active on client
+{label} branch on server source
 
 #### /{application}/{profile}[/{label}]
 ```
@@ -35,7 +37,7 @@ Netflix OSS + Spring + Spring Boot
 
 ```
 
-## Bootstrap a service use the config client
+## Spring Cloud Config Client
 
 ### Config First
 ```
