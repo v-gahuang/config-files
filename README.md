@@ -1,10 +1,10 @@
 # Spring Cloud Netflix
 ## Service Discovery
 
-### Key Component
-Discovery Server
-Service
-Client
+### Key Components
+1:Discovery Server 
+2:Service 
+3:Client
 
 # Spring Cloud Config
 ## Spring Cloud Config Server
