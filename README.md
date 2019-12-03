@@ -2,18 +2,18 @@
 ## Service Discovery
 
 ### Key Components
-1:Discovery Server 
-2:Service 
-3:Client
+#### Discovery Server 
+#### Service 
+#### Client
 
 # Spring Cloud Config
 ## Spring Cloud Config Server
 ### REST Endpoints
 
 #### REST Endpoint Parameters
-{application} spring.application.name on client
-{profile} spring.profiles.active on client
-{label} branch on server source
+##### {application} spring.application.name on client
+##### {profile} spring.profiles.active on client
+##### {label} branch on server source
 
 #### /{application}/{profile}[/{label}]
 ```
